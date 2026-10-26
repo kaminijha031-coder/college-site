@@ -3,21 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>About JEC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-       <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="courses.html">Courses</a>
-          <a href="contact.html">Contact</a>
-       </nav>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="index.html" class="brand">JEC<span> College</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Apply Now</a>
+        </nav>
     </header>
-    <h1>about college</h1>
-    <br>
-    <p>
-        jec groups og college provide better jobs and opportunities
-    </p>
+
+    <main>
+        <section class="page-hero container">
+            <span class="eyebrow dark">About us</span>
+            <h1>Shaping confident learners and future-ready leaders.</h1>
+            <p>JEC College creates a learning environment where curiosity, discipline, and opportunity come together to help students thrive.</p>
+        </section>
+
+        <section class="container section">
+            <div class="split-layout reverse">
+                <div class="text-panel">
+                    <span class="eyebrow dark">Our purpose</span>
+                    <h2>Our mission</h2>
+                    <p>To empower students with knowledge, values, and practical skills that prepare them for meaningful careers and responsible citizenship.</p>
+                    <p>We focus on academic excellence, innovation, and a supportive culture where every learner can discover their strengths and reach their full potential.</p>
+                </div>
+                <div class="image-panel">
+                    <img src="images/jeckukas-college.webp" alt="Students in a learning environment">
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <div class="section-heading">
+                <span class="eyebrow dark">What guides us</span>
+                <h2>Growth with purpose.</h2>
+            </div>
+            <div class="grid-3">
+                <article class="info-card">
+                    <div class="icon">01</div>
+                    <h3>Academic focus</h3>
+                    <p>Strong classroom learning with a practical approach to critical thinking and problem solving.</p>
+                </article>
+                <article class="info-card">
+                    <div class="icon">02</div>
+                    <h3>Student growth</h3>
+                    <p>Mentoring, counseling, and extracurricular opportunities that support confident personal and professional development.</p>
+                </article>
+                <article class="info-card">
+                    <div class="icon">03</div>
+                    <h3>Community values</h3>
+                    <p>An inclusive campus culture rooted in respect, collaboration, innovation, and lifelong learning.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="index.html" class="brand">JEC<span> College</span></a>
+                <p>Building confident learners and future-ready careers.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            © 2026 JEC College. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>

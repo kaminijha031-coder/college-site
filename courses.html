@@ -3,46 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>courses</title>
-    <style>
-        
-    table {
-        border-collapse: collapse;
-    }
-
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-    }
-
-    th {
-        background-color: lightblue;
-    }
-</style>
-
-    </style>
+    <title>Courses | JEC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-       <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="courses.html">Courses</a>
-          <a href="contact.html">Contact</a>
-       </nav>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="index.html" class="brand">JEC<span> College</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html" class="active">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Apply Now</a>
+        </nav>
     </header>
-    <h1>courses</h1>
-    <br>
-    <table>
-        <caption>B.Tech courses</caption>
-        <thead>
-            <tr><th>courses</th><th>duration</th><th>language</th></tr>
-        </thead>
-        <tbody>
-            <tr><td>DSA</td><td>1 year</td><td>c++</td></tr>
-            <tr><td>data science</td><td>2 year</td><td>python</td></tr>
-            <tr><td>wed devlopment</td><td>4 year</td><td>html</td></tr>
-        </tbody>
-    </table>
+
+    <main>
+        <section class="page-hero container">
+            <span class="eyebrow dark">Programs</span>
+            <h1>Courses designed for growth, impact, and opportunity.</h1>
+            <p>Explore hands-on programs that combine strong fundamentals with future-ready skills.</p>
+        </section>
+
+        <section class="container section">
+            <div class="program-grid">
+                <article class="program-card">
+                    <span class="tag">4 Years</span>
+                    <h3>Computer Science</h3>
+                    <p>Build a strong base in software, algorithms, databases, and system design.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">2 Years</span>
+                    <h3>Data Science</h3>
+                    <p>Develop data literacy, analytics, and predictive modeling with real projects.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">4 Years</span>
+                    <h3>Artificial Intelligence</h3>
+                    <p>Explore machine learning, problem solving, and intelligent systems.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">1 Year</span>
+                    <h3>Web Development</h3>
+                    <p>Master HTML, CSS, JavaScript, and modern digital product design.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">2 Years</span>
+                    <h3>Cybersecurity</h3>
+                    <p>Learn digital protection, threat analysis, and secure system design.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">3 Years</span>
+                    <h3>Business & Management</h3>
+                    <p>Prepare for leadership with communication, strategy, and organizational thinking.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section">
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Program</th>
+                            <th>Duration</th>
+                            <th>Key Skills</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Computer Science</td><td>4 Years</td><td>Programming, Algorithms, Systems</td></tr>
+                        <tr><td>Data Science</td><td>2 Years</td><td>Python, Statistics, Analysis</td></tr>
+                        <tr><td>Web Development</td><td>1 Year</td><td>HTML, CSS, JavaScript</td></tr>
+                        <tr><td>Artificial Intelligence</td><td>4 Years</td><td>ML, AI Models, Innovation</td></tr>
+                        <tr><td>Cybersecurity</td><td>2 Years</td><td>Security, Risk, Safeguards</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="index.html" class="brand">JEC<span> College</span></a>
+                <p>Building confident learners and future-ready careers.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            © 2026 JEC College. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>

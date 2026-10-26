@@ -3,20 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Contact | JEC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-       <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="courses.html">Courses</a>
-          <a href="contact.html">Contact</a>
-       </nav>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="index.html" class="brand">JEC<span> College</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Apply Now</a>
+        </nav>
     </header>
-    <h1>
-        Contact us now
-    </h1>
-    <a href="https://www.jeckukas.org.in/" target="_blank">JEC</a>
+
+    <main>
+        <section class="page-hero container">
+            <span class="eyebrow dark">Get in touch</span>
+            <h1>Talk to our admissions team.</h1>
+            <p>Need guidance on choosing the right course or planning your campus visit? We’re here to help.</p>
+        </section>
+
+        <section class="container contact-layout section">
+            <div class="contact-card">
+                <h3>College Details</h3>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> admissions@jeccollege.edu</p>
+                <p><strong>Address:</strong> JEC Campus, Knowledge City, India</p>
+                <p><strong>Hours:</strong> Mon - Sat, 9:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="form-box">
+                <h3>Request Information</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Program of interest</label>
+                        <select id="course">
+                            <option>Computer Science</option>
+                            <option>Data Science</option>
+                            <option>Web Development</option>
+                            <option>AI & Robotics</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Tell us about your interest"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="index.html" class="brand">JEC<span> College</span></a>
+                <p>Building confident learners and future-ready careers.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            © 2026 JEC College. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>

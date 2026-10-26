@@ -3,20 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>JEC College | Future Begins Here</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-       <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="courses.html">Courses</a>
-          <a href="contact.html">Contact</a>
-       </nav>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="index.html" class="brand">JEC<span> College</span></a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Apply Now</a>
+        </nav>
     </header>
-    <h1>Welcome to college site</h1>
-     
-    <img src="images/images.jpg" alt="LOGO">
-    <img src="images/images (1).jpg" alt="PIC">
+
+    <main>
+        <section class="hero container">
+            <div class="hero-copy">
+                <span class="eyebrow">Admissions 2026 Open</span>
+                <h1>Dream bold. Learn smart. Build the future.</h1>
+                <p>Where ambition meets opportunity. JEC College helps students grow with industry-inspired learning, expert mentoring, and a campus culture designed for success.</p>
+                <div class="cta-row">
+                    <a class="btn btn-primary" href="courses.html">Explore Programs</a>
+                    <a class="btn btn-secondary" href="contact.html">Book a Visit</a>
+                </div>
+                <ul class="hero-points">
+                    <li>Career-focused curriculum</li>
+                    <li>Mentors and placement support</li>
+                    <li>Modern campus with vibrant student life</li>
+                </ul>
+            </div>
+            <div class="hero-visual">
+                <img src="images/jeckukas-brand.webp" alt="Creative education and growth concept">
+                <div class="floating-card">
+                    <strong>5000+</strong>
+                    <span>Students shaped for success</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-wrap">
+            <div class="container stats-grid">
+                <div class="stat-box">
+                    <strong>15+</strong>
+                    <span>Years of excellence</span>
+                </div>
+                <div class="stat-box">
+                    <strong>40+</strong>
+                    <span>Programs offered</span>
+                </div>
+                <div class="stat-box">
+                    <strong>90%</strong>
+                    <span>Career support rate</span>
+                </div>
+                <div class="stat-box">
+                    <strong>100%</strong>
+                    <span>Focus on outcomes</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <div class="section-heading">
+                <span class="eyebrow dark">Why JEC</span>
+                <h2>Built for brighter futures</h2>
+            </div>
+            <div class="grid-3">
+                <article class="info-card">
+                    <div class="icon">01</div>
+                    <h3>Career-focused learning</h3>
+                    <p>Our programs are designed around practical skills, innovation, and employability for real industry needs.</p>
+                </article>
+                <article class="info-card">
+                    <div class="icon">02</div>
+                    <h3>Expert faculty</h3>
+                    <p>Learn from experienced educators and professionals who guide every student toward stronger outcomes.</p>
+                </article>
+                <article class="info-card">
+                    <div class="icon">03</div>
+                    <h3>Vibrant campus life</h3>
+                    <p>From clubs to cultural events and workshops, students enjoy a well-rounded learning environment.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section split-layout">
+            <div class="text-panel">
+                <span class="eyebrow dark">Our promise</span>
+                <h2>Learning that turns potential into achievement.</h2>
+                <p>JEC blends academic depth with practical exposure, mentoring, and project-based experiences that help students build confidence and skills for tomorrow’s world.</p>
+                <p>Whether you are exploring technology, business, or creative growth, our campus experience is built to help you move forward with clarity and purpose.</p>
+                <div class="mini-list">
+                    <span>Hands-on projects</span>
+                    <span>Industry tie-ups</span>
+                    <span>Student mentoring</span>
+                </div>
+            </div>
+            <div class="image-panel">
+                <img src="images/images.jpg" alt="College campus view">
+            </div>
+        </section>
+
+        <section class="container section">
+            <div class="section-heading">
+                <span class="eyebrow dark">Popular programs</span>
+                <h2>Explore your next chapter</h2>
+            </div>
+            <div class="program-grid">
+                <article class="program-card">
+                    <span class="tag">Technology</span>
+                    <h3>Computer Science</h3>
+                    <p>Strong foundations in coding, software engineering, and digital innovation.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">Data</span>
+                    <h3>Data Science</h3>
+                    <p>Learn analytics, machine learning, and problem-solving with real-world projects.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">Digital</span>
+                    <h3>Web Development</h3>
+                    <p>Build modern websites and applications with design, logic, and user experience.</p>
+                </article>
+                <article class="program-card">
+                    <span class="tag">Innovation</span>
+                    <h3>AI & Robotics</h3>
+                    <p>Experience emerging technologies through project-based learning and experimentation.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="container cta-inner">
+                <div>
+                    <span class="eyebrow light">Start your story here</span>
+                    <h2>Ready to begin your journey at JEC?</h2>
+                </div>
+                <a href="contact.html" class="btn btn-light">Apply Today</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="index.html" class="brand">JEC<span> College</span></a>
+                <p>Building confident learners and future-ready careers.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            © 2026 JEC College. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>
